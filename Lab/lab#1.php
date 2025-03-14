@@ -34,7 +34,7 @@
                 }
             }
         }
-    
+    echo "<br>****************************<br>";
     //1.Create a PHP script that prints "Welcome to PHP Programming!". 
     $question1 = "Welcome to PHP Programming!";
     echo $question1."<br>";
