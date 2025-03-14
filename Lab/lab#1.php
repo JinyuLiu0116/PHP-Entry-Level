@@ -12,6 +12,29 @@
     <br>
 </form>
 <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+        {
+            echo "I am here";
+            if(isset($_post['click_me'])){
+                $input_name = $_post['input_name'];
+                echo var_dump($input_name);
+                if(!empty($input_name)){
+                    
+                    echo htmlspecialchars($input_name)."<br>";
+                }
+                else{
+                    echo "User name is empty<br>";
+                }
+                $input_pw = $_post['input_pw'];
+                if(empty($input_pw)){
+                    echo "Pass word is empty<br>";
+                }
+                else{
+                    echo htmlspecialchars($input_pw)."<br>";
+                }
+            }
+        }
+    
     //1.Create a PHP script that prints "Welcome to PHP Programming!". 
     $question1 = "Welcome to PHP Programming!";
     echo $question1."<br>";
