@@ -1,4 +1,16 @@
 
+<!DOCTYPE html>
+<html>
+<body>
+<form method = "post" action="">
+    <br>
+    <input type="text" placeholder="user name" name="input_name" id="input_name">
+    <br>
+    <input type="password" placeholder="pass word" name="input_pw" id="input_pw">
+    <br>
+    <button type="submit" name="click_me">Click Me</button>
+    <br>
+</form>
 <?php
     //1.Create a PHP script that prints "Welcome to PHP Programming!". 
     $question1 = "Welcome to PHP Programming!";
