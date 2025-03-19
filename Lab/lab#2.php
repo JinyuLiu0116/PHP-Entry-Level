@@ -39,3 +39,14 @@
     echo '$x:'.var_dump($x).'<br>';
     echo '$z:'.var_dump($z).'<br>';
     echo "----------------------------------------------<br>";
+    /*
+    Questions#4:  Initialize a string variable with a numeric value, then cast it into an 
+    integer and a float.  Display the original and cast values using echo.
+    */
+    $strNum = "1000";
+    $intNum = (integer)$strNum;
+    $floatNum = (float)$strNum;
+    echo '$strNum:'.var_dump($strNum).'<br>';
+    echo '$intNum:'.var_dump($intNum).'<br>';
+    echo '$floatNum:'.var_dump($floatNum).'<br>';
+    echo "----------------------------------------------<br>";
