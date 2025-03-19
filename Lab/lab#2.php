@@ -50,3 +50,19 @@
     echo '$intNum:'.var_dump($intNum).'<br>';
     echo '$floatNum:'.var_dump($floatNum).'<br>';
     echo "----------------------------------------------<br>";
+     /*
+    Questions#5:  Write a script that converts a string "123.45" into 
+    an integer and a float. Print the values before and after conversion.
+    */
+    $floatStringNum = "123.45";
+    $integerNum = (integer)$floatStringNum;
+    $floatNum = (float)$floatStringNum;
+    echo '$floatStringNum:'.var_dump($floatStringNum).'<br>';
+    echo '$integerNum:'.var_dump($integerNum).'<br>';
+    echo '$floatNum:'.var_dump($floatNum).'<br>';
+
+
+
+
+
+?>
