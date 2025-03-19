@@ -23,3 +23,19 @@
     echo ' $result:'.var_dump($result).'<br>';
     //The value of $result is 200 and the type is float because the type of $intNum is converted to float
     echo "----------------------------------------------<br>";
+    /*
+    Questions#3: Write a PHP program that demonstrates type casting by performing the following tasks:
+        • Define a variable x and assign its value to 10.
+        • Type cast x to a float type and store the result in variable y.
+        • Print values and types of x and y to the browser.
+        • Type cast x to a bool type and store the result in z.
+        • Print value and types of x and z to the browser.
+    */
+    $x = 10;
+    $y = (float)$x;
+    echo '$x:'.var_dump($x).'<br>';
+    echo '$y:'.var_dump($y).'<br>';
+    $z = (bool)$x;
+    echo '$x:'.var_dump($x).'<br>';
+    echo '$z:'.var_dump($z).'<br>';
+    echo "----------------------------------------------<br>";
